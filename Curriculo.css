@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+* { 
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+body {
+    background-image: linear-gradient(to right, #F1F8C9, #F2C3A7);
+    margin: 0 100px;
+}
+
+.container_header {
+    display:flex;
+}
+.container_div_header {
+    display:flex;
+    margin-left: 60px;
+    flex: 1.5;
+    padding: 5px;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #F39209;
+    margin-top: 30px;
+}
+
+.container_nav {
+    align-items: center;
+    display: flex;
+    flex:1.5;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.container_nav > a:hover {
+    text-decoration: underline;
+}
+
+.link-menu { 
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 15px; 
+    border: 0px solid black; 
+    background: #125189;
+    text-decoration: none;
+    color:#FFF;
+    height: 20px;
+    /* cantos arredondados */
+    border-radius:10px;
+}
+
+.text_olamundo, .text_formacao, .text_experiencias, .text_conhecimentos {
+    margin-top: 30px;
+    text-align: center;
+}
+.bloco1 {
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 950px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 10px 0 0 ;
+    border-bottom: 5px solid #F39209;
+}
+
+#foto_Andressa {
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 2px solid black ;
+}
+
+.Sobremim{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.bloco2 {
+    margin-top: 20px;
+    margin-left: 100px;
+    background-color: white;
+    width: 950px;
+    display: flex;
+    border-radius: 10px 10px 0 0 ;
+    border-bottom: 5px solid #F39209;   
+}
+
+.lista_formacao {
+    margin: 15px;
+    list-style-type: none;
+    list-style-position: inside;
+    font-size:large;
+    display: block;
+    
+}
+
+.bloco3 {
+    margin-top: 20px;
+    margin-left: 100px;
+    background-color: white;
+    width: 950px;
+    height: 300px;
+    display: flex;
+    border-radius: 10px 10px 0 0 ;
+    border-bottom: 5px solid #F39209;   
+}
+
+#lista {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+#lista > li::before {
+    content:"➤";
+    color:#125189;
+    padding-right: 5px;
+}
+.list_experiencias {
+    list-style-type:none;
+    font-size: large;
+    font-weight: bold;
+}
+
+.list_conhecimento {
+    list-style-type:none;
+    font-size: large;
+
+}
+
+.properties_p_list {
+    text-decoration: underline;
+}
+
+.bloco4 {
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 950px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 10px 10px 0 0 ;
+    border-bottom: 5px solid #F39209;
+}
+
+.text_programacao {
+    text-decoration:underline;
+    font-weight: bold;
+}

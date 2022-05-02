@@ -1,0 +1,142 @@
+
+@charset "UTF-8";
+
+* { 
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+body {
+    position: center;
+    background-image: linear-gradient(to right, #F1F8C9, #F2C3A7);
+    margin: 0 100px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.container_header {
+    display:flex;
+}
+.container_div_header {
+    display:flex;
+    margin-left: 60px;
+    flex: 1.5;
+    padding: 5px;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #F39209;
+    margin-top: 30px;
+}
+
+.container_nav {
+    align-items: center;
+    display: flex;
+    flex:1.5;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.container_nav > a:hover {
+    text-decoration: underline;
+}
+
+.link-menu { 
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 15px; 
+    border: 0px solid black; 
+    background: #125189;
+    text-decoration: none;
+    color:#FFF;
+    height: 20px;
+    /* cantos arredondados */
+    border-radius:10px;
+}
+
+
+fieldset{
+    box-shadow: 13px 8px 0px #125189;
+    position: relative;
+    width: 300px;
+    line-height: 1;
+     /* cantos arredondados */
+     border-radius:5px; 
+}
+
+
+
+legend {
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+} 
+
+label {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin-left: 20px;
+    line-height: 2;
+    color: black;
+}
+
+.campo_form {
+    width: 200px;
+    display: block;
+    margin-left: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 5px 10px;
+    background-color:#125189;
+    color:#FFF;
+     /* cantos arredondados */
+     border-radius:5px;
+}
+.area-texto {
+    border: solid #125189;
+}
+
+.button_container_form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container_contato {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 200px;
+    color: black;
+}
+.contato-container-direita{
+    color:#F39209;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.link-whats {
+    color:#0E0B16
+}
+.link-email {
+    color:#0E0B16
+}
+.mapa-sorocaba {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.minha-localizacao{
+    color:#F39209;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+}
+
+.rodape {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}

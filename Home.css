@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+* { 
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+body {
+    background-image: linear-gradient(to right, #F1F8C9, #F2C3A7);
+    margin: 0 100px;
+}
+
+.container_header {
+    display:flex;
+}
+.container_div_header {
+    display:flex;
+    margin-left: 60px;
+    flex: 1.5;
+    padding: 5px;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #F39209;
+    margin-top: 30px;
+}
+
+.container_nav {
+    align-items: center;
+    display: flex;
+    flex:1.5;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.container_nav > a:hover {
+    text-decoration: underline;
+}
+
+.link-menu { 
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 15px; 
+    border: 0px solid black; 
+    background: #125189;
+    text-decoration: none;
+    color:#FFF;
+    height: 20px;
+    /* cantos arredondados */
+    border-radius:10px;
+}
+
+.bloco1 {
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 950px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px 10px 0 0 ;
+    border-bottom: 5px solid #F39209;
+}
+
+#foto_Andressa {
+    margin-top: 50px;
+    margin-left: 10px;
+    border: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lista_sobremim {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100px;
+    padding: 30px;
+    align-items: center;
+}
+
+.text_titulo1 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.bloco2 {
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    width: 950px;
+    height: 350px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    border-radius: 10px 10px 0 0 ;
+    border-bottom: 5px solid #F39209;
+}
+
+.text_sobremim{
+    text-align: justify;
+    line-height: 25px;
+}
